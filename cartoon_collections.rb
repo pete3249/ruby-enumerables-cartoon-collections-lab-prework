@@ -19,9 +19,6 @@ end
 
 def find_the_cheese(array) #Defining method and accepting an aray of strings
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+ 
   
 end
-
-# the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
