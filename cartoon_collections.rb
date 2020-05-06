@@ -14,13 +14,13 @@ end #closing method
 
 def long_planeteer_calls(array) #defining method and argument
  array.any? {|item| item.length > 4} #passes each element to the block, returns true if at least one of the collection members is not nil or false
-end
+end #closing method
   
 
 def find_the_cheese(array) #Defining method and accepting an aray of strings
   cheese_types = ["cheddar", "gouda", "camembert"] #elements that register as cheese
-  array.each do |item|
-    if cheese_types.include? (item)
+  array.each do |item| #pass through each item in the array
+    if cheese_types.include? (item) #if array includes item from cheese
       return item
     end
   end
