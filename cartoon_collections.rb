@@ -9,8 +9,9 @@ def roll_call_dwarves(array) #defining method and argument
 end #closing method
   
 def summon_captain_planet(array) #defining method and argument
- 
-  array.map do |string| #iterates over array and returns new array with block applied
+  array.map {|string| string.capitalize() + 
+    
+    |string| #iterates over array and returns new array with block applied
     puts "#{string}!" #
   end
 end
