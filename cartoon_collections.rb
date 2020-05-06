@@ -3,7 +3,7 @@ def roll_call_dwarves(array) #defining method and argument
     if array[index] == 0 
       puts "1. #{item}\n"
     else 
-      puts "#{index}. #{item}\n"
+      puts "#{index +1}. #{item}\n"
     end
   end
 end
