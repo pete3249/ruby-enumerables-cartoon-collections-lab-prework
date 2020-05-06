@@ -20,9 +20,11 @@ end
 def find_the_cheese(array) #Defining method and accepting an aray of strings
   cheese_types = ["cheddar", "gouda", "camembert"]
   count = 0
- if array[count].include? ("cheddar")
+  if array[count].include? ("cheddar")
    puts "cheddar"
-  else array[count].include? ()
- 
- array.include? ("cheddar", "gouda", "camembert")
+    else array[count].include? ("gouda")
+    puts "gouda"
+    elsif array[count].include? ("camembert")
+    puts "camembert"
+  end
 end
