@@ -1,5 +1,5 @@
 
-def roll_call_dwarves(array) #defining method and argument
+def roll_call_dwarves(array) 
   array.each_with_index{|item, index| puts "#{index}. #{item}"}           
   #iterates over array with its index and returns given value
   
