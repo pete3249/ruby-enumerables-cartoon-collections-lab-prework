@@ -13,7 +13,7 @@ def summon_captain_planet(array) #defining method and argument
 end #closing method
 
 def long_planeteer_calls(array) #defining method and argument
-  array.include?    # Your code here
+  array.include?     # Your code here
       
       
 end
