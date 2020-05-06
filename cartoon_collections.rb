@@ -5,14 +5,7 @@ def roll_call_dwarves(array) #defining method and argument
   end
 end 
    
-   
-   
-   if array[index] = 0
-    puts "1. #{item}\n"
-  else 
-    puts "([index] + 1). #{item}\n"
-  end
-end
+  
 
 def summon_captain_planet# code an argument here
   # Your code here
