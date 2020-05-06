@@ -11,6 +11,7 @@ end #closing method
 def summon_captain_planet(array) #defining method and argument
   array.map do |string|
     puts "#{string}!" # Your code here
+  end
 end
 
 def long_planeteer_calls# code an argument here
