@@ -26,7 +26,7 @@ end
   
   
   array.each.include? do |item| 
-    if item.length > 4 #if the word is longer than 4 characters
+    if item.length > 4 
       puts "True" 
     else 
       puts "False"
