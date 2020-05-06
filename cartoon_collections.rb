@@ -18,7 +18,8 @@ end
   
 
 def find_the_cheese(array) #Defining method and accepting an aray of strings
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"] #elements that register as cheese
+  
 end  
   
   
