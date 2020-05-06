@@ -1,6 +1,6 @@
 def roll_call_dwarves(array) #defining method and argument
   
-  #iterates over array with its index and returns given value
+  
   
   
   array.each_with_index do |item, index| 
