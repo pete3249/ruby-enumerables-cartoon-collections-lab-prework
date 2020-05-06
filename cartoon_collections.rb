@@ -13,7 +13,7 @@ def summon_captain_planet(array) #defining method and argument
 end #closing method
 
 def long_planeteer_calls(array) #defining method and argument
- array.any? {|item| item.length > 4} #passes each element to the block 
+ array.any? {|item| item.length > 4} #passes each element to the block, returns true if at least one of the collection members is not nil or false
 end
   
 
