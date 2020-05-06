@@ -13,10 +13,10 @@ def summon_captain_planet(array) #defining method and argument
 end #closing method
 
 def long_planeteer_calls(array) #defining method and argument
-  array.each do |item|
-    if item.length > 4
-      puts "True"
-    else 
+  array.each do |item| #iterate over each item in the array
+    if item.length > 4 #if the word is longer than 4 characters
+      puts "True" 
+    else #if the word is not longer than 4 characters
       puts "False"
     end
   end
