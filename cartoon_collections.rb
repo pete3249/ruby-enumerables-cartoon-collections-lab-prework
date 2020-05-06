@@ -20,7 +20,7 @@ def long_planeteer_calls(array) #defining method and argument
   
   
   
-  array.each.include? do |item| #iterate over each item in the array
+  array.each.include? do |item| 
     if item.length > 4 #if the word is longer than 4 characters
       puts "True" 
     else #if the word is not longer than 4 characters
