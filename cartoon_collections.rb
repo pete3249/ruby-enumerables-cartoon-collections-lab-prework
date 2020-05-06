@@ -19,7 +19,7 @@ end
 
 def find_the_cheese(array) #Defining method and accepting an aray of strings
   cheese_types = ["cheddar", "gouda", "camembert"]
- if array[0] 
+ if array[0] ==  
  
  
  
