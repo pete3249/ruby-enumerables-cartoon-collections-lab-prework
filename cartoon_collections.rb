@@ -10,7 +10,7 @@ end #closing method
   
 def summon_captain_planet(array) #defining method and argument
   array.map do |string| #iterates over array and returns new array with block applied
-    puts "#{string}.capitalize!" # Your code here
+    puts "#{string}!.capitalize" # Your code here
   end
 end
 
