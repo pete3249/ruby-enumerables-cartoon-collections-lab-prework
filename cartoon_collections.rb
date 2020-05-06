@@ -15,9 +15,9 @@ end #closing method
 def long_planeteer_calls(array) #defining method and argument
   array.each do |item| #iterate over each item in the array
     if item.length > 4 #if the word is longer than 4 characters
-      returns "True"
+      puts "True"
     else #if the word is not longer than 4 characters
-      returns "False"
+      puts "False"
     end
   end
   array.include? ("True")
