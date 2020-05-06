@@ -13,24 +13,9 @@ def summon_captain_planet(array) #defining method and argument
 end #closing method
 
 def long_planeteer_calls(array) #defining method and argument
- array.
- 
- 
- 
- 
- 
-  array.each do |item| #iterate over each item in the array
-    new_array = []
-    if item.length > 4 #if the word is longer than 4 characters
-      puts "True"
-    else #if the word is not longer than 4 characters
-      puts "False"
-    end
-  end
-  array.include? ("True")
+ array.any? {|item| item.length > 4}
 end
   
-  array.length
   
 def find_the_cheese# code an argument here
   # the array below is here to help
