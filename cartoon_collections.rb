@@ -1,6 +1,9 @@
 def roll_call_dwarves(array) #defining method and argument
   array.each_with_index do |item, index| #iterates over array with its index and returns given value
-    puts "#{index}. #{item}\n"  
+   if array[index] = 0
+    puts "1. #{item}\n"
+  else 
+    puts "([index] + 1). #{item}\n"
   end
 end
 
