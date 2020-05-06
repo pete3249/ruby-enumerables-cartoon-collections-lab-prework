@@ -24,6 +24,6 @@ def find_the_cheese(array) #Defining method and accepting an aray of strings
       return item
     end
   end
-  retun nil
+  return nil
 end  
  
