@@ -20,7 +20,7 @@ end #closing method
 def find_the_cheese(array) #Defining method and accepting an aray of strings
   cheese_types = ["cheddar", "gouda", "camembert"] #elements that register as cheese
   array.each do |item| #pass through each item in the array
-    if cheese_types.include? (item) #if array includes item from cheese
+    if cheese_types.include? (item) #if element from cheese_types matches item from array includes item from cheese
       return item
     end
   end
