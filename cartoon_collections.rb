@@ -8,11 +8,8 @@ def roll_call_dwarves(array) #defining method and argument
   end #closing do...end loop
 end #closing method
   
-   
-  
-
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array) #defining method and argument
+  array.         # Your code here
 end
 
 def long_planeteer_calls# code an argument here
