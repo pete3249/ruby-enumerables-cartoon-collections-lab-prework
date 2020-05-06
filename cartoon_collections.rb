@@ -10,7 +10,7 @@ end #closing method
   
 def summon_captain_planet(array) #defining method and argument
   array.map {|string| string.capitalize() + "!"} #iterates over array, returns new array, applies block
-end
+end #closing method
 
 def long_planeteer_calls# code an argument here
   # Your code here
