@@ -28,3 +28,4 @@ def find_the_cheese(array) #Defining method and accepting an aray of strings
     puts "camembert"
   end
 end
+end
