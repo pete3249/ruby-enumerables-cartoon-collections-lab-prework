@@ -9,10 +9,10 @@ def roll_call_dwarves(array) #defining method and argument
 end #closing method
   
 def summon_captain_planet(array) #defining method and argument
+ 
   array.map do |string| #iterates over array and returns new array with block applied
     puts "#{string}!" #
   end
-  array
 end
 
 def long_planeteer_calls# code an argument here
