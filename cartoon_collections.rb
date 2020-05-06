@@ -1,14 +1,13 @@
 def roll_call_dwarves(array) #defining method and argument
   array.each_with_index do |item, index| #iterates over array with its index and returns given value
-    i = array[index] + 1
-  
-  
-  
-  counting_index = array[index] + 1 #define variable to get accurate count
-  
-    puts "counting_index. #{item}\n"
+    if array[index] == 0 
+      puts "1. #{item}\n"
+    else 
+      puts "#{index}. #{item}\n"
+    end
   end
-end 
+end
+  
    
   
 
